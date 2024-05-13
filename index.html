@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+    <title>MBScan Dashboard</title>
+</head>
+
+<body>
+    <header class="head">
+        <div>MB<span>scan</span></div>
+        <i class="fa fa-bars"></i>
+    </header>
+    <section class="container">
+        <div class="nav">
+            <div>
+                <span>spiffTest</span>
+                <div class="nav-content">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </div>
+                    <div class="active">
+                        <i class="fa fa-users"></i>
+                        <span>Create/Edit User</span>
+                    </div>
+                    <div>
+                        <i class="fa fa-sign-out"></i>
+                        <span>Logout</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <div>by</div>
+                <div class="big">TESTRIGHT</div>
+            </div>
+        </div>
+        <div class="device-container">
+            <div class="sidebar">
+                <div class="top-group">
+                    <div class="connected">
+                        <span>Device ID Connected</span>
+                        <select>
+                            <option value="MBS00007">MBS00007</option>
+                        </select>
+                    </div>
+                    <div class="temp">
+                        <span>Temp:</span>
+                        <span>37.5 C</span>
+                    </div>
+                    <div>
+                        <div class="select-group">
+                            <input type="checkbox" id="check" />
+                            <label for="check">Select</label>
+                        </div>
+                        <div class="play-group">
+                            <div>
+                                <img src="./assests/circle.svg" alt="White">
+                                <span>White</span>
+                            </div>
+                            <div>
+                                <img src="./assests/play.svg" alt="Start">
+                                <span>Start</span>
+                            </div>
+                            <div>
+                                <img src="./assests/stop.svg" alt="Stop">
+                                <span>Stop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="device-settings">
+                    <img src="./assests/settings.svg" alt="Device Settings">
+                    <span>Device Settings</span>
+                </div>
+            </div>
+            <div id="sample-details">
+
+            </div>
+            <!-- <div class="data-container">
+                <div class="test">
+                    <div class="test-number">01</div>
+                    <div class="test-sample">TSRT1425</div>
+                    <div class="btn-group">
+                        <button class="left">Take white</button>
+                        <button class="right">Start</button>
+                    </div>
+                    <div class="selected-div">
+                        <img src="./assests/check.svg" alt="Check">
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-number">02</div>
+                    <div class="test-sample">TSRT1425</div>
+                    <div class="btn-group">
+                        <button class="left">Take white</button>
+                        <button class="right">Start</button>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-number">03</div>
+                    <div class="test-sample">White?</div>
+                    <div class="btn-group">
+                        <button class="left yes">Yes</button>
+                        <button class="right">No</button>
+                    </div>
+                </div>
+                <div class="test">
+                    <div class="test-number">04</div>
+                    <div class="test-sample">TSRT1425</div>
+                    <div class="btn-group">
+                        <button class="green-btn">03:34</button>
+                    </div>
+                </div>
+            </div>  -->
+        </div>
+    </section>
+</body>
+
+</html>
